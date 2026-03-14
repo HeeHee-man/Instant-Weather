@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>InstantWeather</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style = "color: white; text-align: center; font-size: 4rem;">INSTANT WEATEHER</h1>
+        <input id = "insertCity" placeholder = "Insert city">
+        <button id = "insertButton">Get Weather</button>
+        <div id = "display">
+            <p id = "city"></p>
+            <p id = "tempC"></p>
+            <p id = "tempF"></p>
+            <p id = "humidity"></p>
+            <p id = "desc"></p>
+            <p id = "weatherEmoji"></p>
+        </div>
+        <div id = "favCities">
+            <h3>FAVOURITE CITIES</h3>
+            <input id = "favCityInput" placeholder = "Insert city">
+            <button id = "favCityButton">Add</button>
+            <table id = "favCityTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Show Weather</th>
+                    <th>Delete</th>
+                </tr>
+            </table>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
